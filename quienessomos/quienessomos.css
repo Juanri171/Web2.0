@@ -1,0 +1,90 @@
+body
+{
+  background-color: rgb(1, 18, 34);
+  margin: 0%;
+  padding: 0%;
+}
+
+.personas
+{
+height: 50%;
+width: 50%;
+margin-left: 25%;
+}
+
+.texto
+{
+  color: aliceblue;
+  font-size: 18px;
+  font-family: 'Oleo Script Swash Caps', ;
+  
+}
+.subtitulo
+{
+  margin-left: 5%;
+  color: aliceblue;
+  font-size: 300%;
+  font-family: 'Lato', sans-serif ;
+}
+
+.tituloqs
+{
+  margin-left: 32.8%;
+  color: aliceblue;
+  font-family: 'Lato', sans-serif;
+  font-size: 500%;
+}
+
+.contenedor{
+  background-color: rgb(1, 18, 48);
+  margin-top: 10%;
+  align-items: center;
+  width: 100%;
+  
+}
+
+.sintenedor{
+  
+  background-color: #0d2f53;
+  display: flex;
+  margin-top: 4rem;
+  margin-bottom: 1%;
+  align-items: baseline;
+ 
+}
+
+.imagen1{
+  margin-top: 25%;
+  width: 99%;
+  height: 110%;
+  margin-left: 0%;
+  align-items: center;
+}
+
+.imagen2{
+  width: 99%;
+  height: 100%;
+  align-items: center;
+}
+
+.imagen3{
+  width: 99%;
+  height: 100%;
+  margin-left: 0%;
+  align-items: center;
+}
+
+.imagen4{
+  width: 99%;
+  height: 100%;
+  margin-left: 0%;
+  align-items: center;
+}
+
+.descripcion{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Oleo Script Swash Caps',;
+  color: white;
+}

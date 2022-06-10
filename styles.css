@@ -1,0 +1,144 @@
+.topnav {
+  background-color: #0d2f53;
+  overflow: hidden;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  height: 14%;
+}
+
+/* letras */
+.topnav a {
+  float: left;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Press Start 2P", cursive;
+  margin-left: 1%;
+}
+
+/* color de posición del raton en la navbar */
+.topnav a:hover {
+  color: white;
+}
+
+/* Color de la sección seleccionada */
+.topnav a.active {
+  background-color: #154170;
+  color: white;
+  border-bottom: 3px solid rgb(255, 255, 255);
+  
+}
+
+.titulo{
+  margin-left: 2%;
+  color: azure;
+  font-family: 'Lato', sans-serif;
+  font-size: 500%;
+}
+
+
+
+body::-webkit-scrollbar {
+  width: 8px;               /* tamaño scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(77, 77, 77);        /* color fondo */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #0d2f53;    /* color palo */
+  border-radius: 500px;       /* forma circular */
+  border: 1.7px solid #0d2f53;  /* creates padding around scroll thumb */
+}
+
+.slider {
+  margin-left: 2rem;
+  text-align: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.slides {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory; 
+  
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+.slides::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.slides::-webkit-scrollbar-thumb {
+  background: #154170;
+  border-radius: 10px;
+}
+.slides::-webkit-scrollbar-track {
+  background: transparent;
+}
+.slides > div {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  /* Cambiar tamaño imágenes */
+  width: 300px;
+  height: 300px;
+  /* ----- */
+  margin-right: 50px;
+  border-radius: 10px;
+  background: #eee;
+  transform-origin: center center;
+  transform: scale(1);
+  transition: transform 0.5s;
+  position: relative;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+}
+
+.author-info {
+  background: rgba(0, 0, 0, 0.75);
+  color: rgb(255, 255, 255);
+  padding: 0.75rem;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+}
+.author-info a {
+  color: white;
+}
+img {
+  object-fit: cover;  
+  position: relative;
+  width: 95%;
+  height: 95%;
+  border-radius: 10px;
+}
+
+.slider > a {
+  display: inline-flex;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: rgb(0, 0, 0);
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 0 0.5rem 0;
+  position: relative;
+}
+.slider > a:active {
+  top: 1px;
+}
+.slider > a:focus {
+  background: #000;
+}
