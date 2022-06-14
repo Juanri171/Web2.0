@@ -1,34 +1,30 @@
-body
-{
+body {
   background-color: rgb(1, 18, 34);
   margin: 0%;
   padding: 0%;
 }
 
-.personas
-{
-height: 50%;
-width: 50%;
-margin-left: 25%;
+.personas {
+  height: 50%;
+  width: 50%;
+  margin-left: 25%;
 }
 
-.texto
-{
+.texto {
   color: aliceblue;
   font-size: 18px;
-  font-family: 'Lato', sans-serif ;
-  
+  font-family: 'Lato', sans-serif;
+
 }
-.subtitulo
-{
+
+.subtitulo {
   margin-left: 5%;
   color: rgb(59, 177, 217);
   font-size: 155%;
-  font-family: 'Lato', sans-serif ;
+  font-family: 'Lato', sans-serif;
 }
 
-.tituloqs
-{
+.tituloqs {
   margin-left: 32.8%;
   color: aliceblue;
   font-family: 'Lato', sans-serif;
